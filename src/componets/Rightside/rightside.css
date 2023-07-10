@@ -1,0 +1,13 @@
+.rightside_cls{
+    
+        height: 100vh;
+        background: black;
+        width: -webkit-fill-available;
+    
+}
+@media screen and (max-width:724px) {
+    .rightside_cls{
+        display: none;
+    }
+    
+}

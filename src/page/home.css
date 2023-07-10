@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background: black; */
+}
+.home_section{
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+
+

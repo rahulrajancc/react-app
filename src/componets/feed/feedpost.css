@@ -1,0 +1,22 @@
+.feedpost_cls{
+    
+    
+    
+        /* height: vh; */
+        background: rgb(0, 0, 0);
+        width: -webkit-fill-available;
+    
+
+}
+.post_pla{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:724px) {
+    .post input{
+        display: none;
+    }
+
+
+    
+}

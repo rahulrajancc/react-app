@@ -1,0 +1,37 @@
+.Post-section{
+    border: 2px solid white;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 89px;
+    width: fit-content;
+}
+.post_img input{
+    height: 309px;
+    width:auto;
+    border-radius: 12px;
+}
+.like_share_com img{
+    margin-left: 20px;
+    height: 35px;
+    /* border: 2px solid palevioletred;
+    border-radius: 12px; */
+
+}
+#Username{
+    color: purple;
+    text-align: center;
+    margin-left: 12px;
+    margin-bottom: 12px;
+}
+.Added_Date{
+    color: purple;
+    text-align: center;
+    margin-left: 42px;
+    margin-bottom: 12px;
+}
+
+.post_comp{
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}

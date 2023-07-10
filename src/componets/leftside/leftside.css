@@ -1,0 +1,14 @@
+.leftside_cls{
+    
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    width: -webkit-fill-available;
+
+}
+@media screen and (max-width:724px) {
+    .leftside_cls{
+        display: none;
+    }
+    
+    
+}
