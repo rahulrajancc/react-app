@@ -16,9 +16,7 @@ class Topbar extends Component {
                 <div className="topbar_right">
                     <a href='/home'><img src={require('../../assest/ihome.png')}/><span style={{color:'red'}}><sup>1</sup></span></a>
                     
-                    <a href='/message' onClick={()=>{
-                        const setfe=document.getElementsByClassName('.feedpost_cls').style={display:'none'}
-                    }}><img src={require('../../assest/icons8-message-50.png')}/><span style={{color:'red'}}><sup>1</sup></span></a>
+                    <a href='/message'><img src={require('../../assest/icons8-message-50.png')}/><span style={{color:'red'}}><sup>1</sup></span></a>
                     <div id="Add"><a><img src={require('../../assest/Add.png')}/></a></div>
                     <a href=''><img src={require('../../assest/icons8-bell-50.png')}/><span style={{color:'red'}}><sup>1</sup></span></a></div>
                     <div className="Profile_pic"><a href='#'><img src={require('../../assest/testaccount.png')}/></a></div>

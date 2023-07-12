@@ -11,6 +11,10 @@ import {
 import Home from './page/home';
 const router = createBrowserRouter([
   {
+    path:'/',
+    element:<Home />
+  },
+  {
     path: '/message',
     element: <Message />,
   },
@@ -24,9 +28,6 @@ root.render(
   <React.StrictMode>
     <Topbar />
     <RouterProvider router={router} />
-    
-    
-    <Home />
   </React.StrictMode>
 );
 
