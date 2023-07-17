@@ -1,5 +1,6 @@
 import React from 'react';
 // import ReactDOM from 'react-dom/client';
+
 import './index.css';
 import Topbar from './componets/Topbar/topbar';
 import Message from './page/Message_chats/message';
@@ -9,6 +10,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './page/home';
+import app from './firebase';
+import Signup from './page/login and signup/signup';
+import Login from './page/login and signup/login';
 const router = createBrowserRouter([
   {
     path:'/',
@@ -21,7 +25,14 @@ const router = createBrowserRouter([
   {
     path: '/home',
     element: <Home />
-  }
+  },
+  {
+    path:'/Signup',
+    element:<Signup />
+  },
+  {
+    path: '/Login',
+  element:<Login />}
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

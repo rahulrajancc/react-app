@@ -19,7 +19,7 @@ class Topbar extends Component {
                     <a href='/message'><img src={require('../../assest/icons8-message-50.png')}/><span style={{color:'red'}}><sup>1</sup></span></a>
                     <div id="Add"><a><img src={require('../../assest/Add.png')}/></a></div>
                     <a href=''><img src={require('../../assest/icons8-bell-50.png')}/><span style={{color:'red'}}><sup>1</sup></span></a></div>
-                    <div className="Profile_pic"><a href='#'><img src={require('../../assest/testaccount.png')}/></a></div>
+                    <div className="Profile_pic"><a href='/Signup'><img src={require('../../assest/testaccount.png')}/></a></div>
             
             </div>
         );
