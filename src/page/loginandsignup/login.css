@@ -1,0 +1,68 @@
+.ele_login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aquamarine;
+    text-align: right;
+}
+.ele_login input{
+    margin-bottom: 8px;
+    margin-left: 8px;
+    width: 46vw;
+    height: 5vh;
+    background: none;
+    border: 3px solid purple;
+    border-radius: 12px;
+}
+.ele_login button{
+    display: inline-block;
+    color: white;
+    background: blue;
+    border: blue;
+    border-radius: 5px;
+    width: 12vw;
+    height: 4vh;
+    margin-left: 0;
+   
+}
+.Login_page{
+    height: 55vh;
+    object-position: center;
+    /* flex-direction: row; */
+    display: flex;
+    justify-content: center;
+}
+.ele_login{
+    margin-top: 50%;
+    object-position: center;
+    height: 29vh;
+    width: -webkit-fill-available;
+    border: 5px solid purple;
+    border-radius: 30px;
+}
+@media screen and (min-width: 722px) {
+    .ele_login{
+        margin: 0;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        object-position: center;
+    }
+    .Login_page{
+        
+    
+       margin: auto;
+      width: 60%;
+      height: 3vh;
+      /* padding: 10px; */
+    }
+    form{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+        
+     
+    }

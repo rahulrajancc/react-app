@@ -1,0 +1,70 @@
+
+ .signup_page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aquamarine;
+    text-align: right;
+    height: 55vh;
+    object-position: center;
+    /* flex-direction: row; */
+    display: flex;
+    justify-content: center;
+    
+}
+.ele_signup{
+    margin-top: 50%;
+    object-position: center;
+    height: 60vh;
+    width: -webkit-fill-available;
+    border: 5px solid purple;
+    border-radius: 30px;
+}
+.ele_signup input{
+    margin-bottom: 8px;
+    margin-left: 8px;
+    width: 20em;
+    height: 5vh;
+    background: none;
+    border: 3px solid purple;
+    border-radius: 12px;
+}
+.ele_signup button{
+    display: inline-block;
+    color: white;
+    background: blue;
+    border: blue;
+    border-radius: 5px;
+    width: 23vw;
+    height: 4vh;
+   
+}
+.ele_signup p{
+    margin: 2vh;
+}
+@media screen and (min-width: 722px) {
+.ele_signup{
+    margin: 0;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    object-position: center;
+}
+.signup_page{
+    
+
+   margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+    
+ 
+}
+
+
+
+
+
+   
